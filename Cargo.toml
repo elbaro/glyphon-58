@@ -1,0 +1,17 @@
+[package]
+name = "g"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+bytemuck = { version = "1.14.0", features = ["derive"] }
+cgmath = "0.18.0"
+futures-intrusive = "0.5.0"
+glyphon = { git = "https://github.com/grovesNL/glyphon", rev = "9e25714a441508aaed5047dad9d750353aae7385" }
+image = "0.24.7"
+pollster = "0.3.0"
+wgpu = "0.17.1"
+winit = "0.28.6"
